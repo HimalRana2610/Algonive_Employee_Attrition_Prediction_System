@@ -1,4 +1,4 @@
-# 🔍 Employee Attrition Prediction System
+# Employee Attrition Prediction System
 
 A comprehensive machine learning system that predicts employee attrition risk using advanced classification techniques. This project analyzes various factors such as job satisfaction, salary, work environment, experience, and demographics to identify employees at risk of leaving the organization.
 
@@ -7,7 +7,7 @@ A comprehensive machine learning system that predicts employee attrition risk us
 ![Pandas](https://img.shields.io/badge/Pandas-3.0.1-green.svg)
 ![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Dataset](#dataset)
@@ -23,7 +23,7 @@ A comprehensive machine learning system that predicts employee attrition risk us
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🎯 Overview
+## Overview
 
 Employee attrition is a critical concern for organizations, impacting productivity, morale, and costs. This project leverages machine learning to:
 - Predict which employees are likely to leave
@@ -31,7 +31,7 @@ Employee attrition is a critical concern for organizations, impacting productivi
 - Provide actionable insights for HR teams
 - Enable proactive retention strategies
 
-## ✨ Features
+## Features
 
 - **Comprehensive Data Analysis**: Exploratory data analysis with 35+ employee features
 - **Multiple ML Models**: Implementation of Logistic Regression, Decision Trees, and Random Forest
@@ -41,7 +41,7 @@ Employee attrition is a critical concern for organizations, impacting productivi
 - **Business Insights**: Strategic recommendations for HR teams
 - **Model Comparison**: Detailed performance metrics across all models
 
-## 📊 Dataset
+## Dataset
 
 The system uses the **HR Employee Attrition Dataset** containing:
 - **Records**: 1,470 employees
@@ -57,7 +57,7 @@ The system uses the **HR Employee Attrition Dataset** containing:
 - **Target Variable**: Attrition (Yes/No)
 - **Attrition Rate**: 16.12% (237 out of 1,470 employees)
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.12+
@@ -67,7 +67,7 @@ The system uses the **HR Employee Attrition Dataset** containing:
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/HimalRana2610/Algonive_Employee_Attrition_Prediction_System.git
    cd Algonive_Employee_Attrition_Prediction_System
    ```
 
@@ -96,7 +96,7 @@ The system uses the **HR Employee Attrition Dataset** containing:
    jupyter notebook app.ipynb
    ```
 
-## 💻 Usage
+## Usage
 
 ### Running the Analysis
 
@@ -129,13 +129,13 @@ risk_probability = best_model.predict_proba(employee_data)[:, 1]
 print(f"Attrition Risk: {risk_probability[0]*100:.2f}%")
 ```
 
-## 📈 Model Performance
+## Model Performance
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 |-------|----------|-----------|--------|----------|---------|
 | **Logistic Regression** | 86.73% | 75.00% | 25.53% | 38.10% | 0.7766 |
 | **Decision Tree** | 80.27% | 35.90% | 29.79% | 32.56% | 0.5708 |
-| **Random Forest** ⭐ | **84.01%** | **50.00%** | **12.77%** | **20.34%** | **0.7934** |
+| **Random Forest** | **84.01%** | **50.00%** | **12.77%** | **20.34%** | **0.7934** |
 
 ### Recommended Model: Random Forest
 The Random Forest model is recommended for production deployment due to:
@@ -144,7 +144,7 @@ The Random Forest model is recommended for production deployment due to:
 - Robust performance across different metrics
 - Lower overfitting compared to Decision Tree
 
-## 🔑 Key Findings
+## Key Findings
 
 ### Top Attrition Risk Factors
 
@@ -178,7 +178,7 @@ The Random Forest model is recommended for production deployment due to:
 - Lower job satisfaction (Level 1) shows higher attrition
 - Work-life balance rating of 1 has 31.25% attrition rate
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Core Libraries
 - **Python 3.12** - Programming language
@@ -194,7 +194,7 @@ The Random Forest model is recommended for production deployment due to:
 - **Jupyter Notebook** - Interactive development
 - **IPython 9.10.0** - Enhanced Python shell
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Algonive_Employee_Attrition_Prediction_System/
@@ -209,7 +209,7 @@ Algonive_Employee_Attrition_Prediction_System/
 └── env/                          # Virtual environment (not in repo)
 ```
 
-## 📊 Visualizations
+## Visualizations
 
 The project includes comprehensive visualizations:
 
@@ -233,7 +233,7 @@ The project includes comprehensive visualizations:
 - Salary impact analysis
 - Tenure and age distribution
 
-## 💼 Business Recommendations
+## Business Recommendations
 
 ### 1. **Compensation Strategy**
 - Review and adjust salaries, especially in Sales and HR departments
@@ -265,7 +265,7 @@ The project includes comprehensive visualizations:
 - **HR**: Review workload and satisfaction levels (19.05% attrition)
 - **R&D**: Maintain current retention strategies (13.84% attrition)
 
-## 🔮 Future Improvements
+## Future Improvements
 
 ### Model Enhancements
 - [ ] Implement ensemble methods (XGBoost, LightGBM)
